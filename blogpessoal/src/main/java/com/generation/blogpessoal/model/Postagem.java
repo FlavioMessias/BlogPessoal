@@ -45,7 +45,7 @@ public class Postagem {
 	@JsonIgnoreProperties("postagem")
 	private Usuario usuario;
 	
-	
+
 	public long getId() {
 		return id;
 	}
@@ -93,5 +93,5 @@ public class Postagem {
 	public void setUsuario(Usuario usuario) {
 		this.usuario = usuario;
 	}
-	
+
 }
